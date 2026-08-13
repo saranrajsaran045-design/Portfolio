@@ -1902,10 +1902,6 @@ img {
 }
 
 @media (max-width: 768px) {
-  .nav-menu {
-    display: none;
-  }
-
   .mobile-toggle {
     display: flex;
   }
@@ -1956,10 +1952,6 @@ img {
 }
 
 @media (max-width: 480px) {
-  .nav-menu {
-    display: none;
-  }
-
   .mobile-toggle {
     display: flex;
   }
