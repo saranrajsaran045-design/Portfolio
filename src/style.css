@@ -440,6 +440,19 @@ img {
   margin-bottom: 24px;
 }
 
+@media (max-width: 480px) {
+  .badge-hello {
+    padding: 5px 12px;
+    font-size: 0.75rem;
+    margin-bottom: 16px;
+  }
+
+  .badge-hello .corner {
+    width: 4px;
+    height: 4px;
+  }
+}
+
 .badge-hello .corner {
   position: absolute;
   width: 6px;
@@ -476,6 +489,21 @@ img {
   color: var(--color-text-muted);
   max-width: 500px;
   margin-bottom: 36px;
+}
+
+@media (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
 }
 
 .hero-ctas {
@@ -589,6 +617,18 @@ img {
   box-shadow: var(--shadow-md);
 }
 
+@media (max-width: 768px) {
+  .floating-badge {
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-badge {
+    display: none;
+  }
+}
+
 .badge-hire-me {
   top: 40px;
   right: -20px;
@@ -624,6 +664,19 @@ img {
   box-shadow: var(--shadow-sm);
 }
 
+@media (max-width: 768px) {
+  .floating-pill {
+    padding: 6px 12px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-pill {
+    display: none;
+  }
+}
+
 .pill-ux {
   bottom: 120px;
   right: -10px;
@@ -646,6 +699,12 @@ img {
   white-space: nowrap;
 }
 
+@media (max-width: 480px) {
+  .marquee-bar {
+    padding: 12px 0;
+  }
+}
+
 .marquee-track {
   display: inline-flex;
   align-items: center;
@@ -655,6 +714,20 @@ img {
   font-weight: 800;
   color: var(--color-text-dark);
   text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .marquee-track {
+    gap: 24px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee-track {
+    gap: 16px;
+    font-size: 0.8rem;
+  }
 }
 
 .marquee-track .star {
@@ -723,6 +796,12 @@ img {
   font-size: 1.35rem;
   font-weight: 700;
   margin-bottom: 14px;
+}
+
+@media (max-width: 480px) {
+  .service-card-title {
+    font-size: 1.15rem;
+  }
 }
 
 .service-card-desc {
@@ -888,6 +967,12 @@ img {
   font-weight: 800;
   color: var(--color-accent-yellow);
   margin-bottom: 4px;
+}
+
+@media (max-width: 480px) {
+  .stat-number {
+    font-size: 1.75rem;
+  }
 }
 
 .stat-label {
@@ -1120,6 +1205,12 @@ img {
   font-weight: 700;
 }
 
+@media (max-width: 480px) {
+  .journey-card-title {
+    font-size: 1.2rem;
+  }
+}
+
 .timeline-list {
   display: flex;
   flex-direction: column;
@@ -1217,9 +1308,21 @@ img {
   margin-bottom: 32px;
 }
 
+@media (max-width: 480px) {
+  .plan-price {
+    margin-bottom: 24px;
+  }
+}
+
 .price-val {
   font-size: 2.75rem;
   font-weight: 800;
+}
+
+@media (max-width: 480px) {
+  .price-val {
+    font-size: 2.25rem;
+  }
 }
 
 .price-unit {
@@ -1461,6 +1564,13 @@ img {
   border-radius: var(--radius-md);
   overflow: hidden;
   margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .blog-img-wrapper {
+    height: 150px;
+    margin-bottom: 16px;
+  }
 }
 
 .blog-img-wrapper img {
